@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b6c9f8-7834-41d2-b8c6-bf91d067b01d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DIshdetailComponent.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/HomeComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MenuComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/shared" />
       <recent name="$PROJECT_DIR$/components" />
     </key>
@@ -74,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566951994236</updated>
       <workItem from="1566951996104" duration="1792000" />
-      <workItem from="1567017258334" duration="3856000" />
+      <workItem from="1567017258334" duration="4195000" />
     </task>
     <servers />
   </component>
