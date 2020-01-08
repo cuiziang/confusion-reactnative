@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b6c9f8-7834-41d2-b8c6-bf91d067b01d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AboutComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ContactComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DIshdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DishdetailComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +31,7 @@
   </component>
   <component name="ProjectId" id="1Q1xdzAF5rgac9Mcdji9JaLdln6" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -72,6 +75,14 @@
       <workItem from="1566951996104" duration="1792000" />
       <workItem from="1567017258334" duration="4195000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix some typos">
+      <created>1578502583342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578502583343</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +100,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix some typos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some typos" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="391" y="130" key="CommitChangelistDialog2" timestamp="1578505459901">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="391" y="130" key="CommitChangelistDialog2/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1578505459901" />
+    <state x="559" y="242" key="RollbackChangesDialog" timestamp="1578505458581">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="559" y="242" key="RollbackChangesDialog/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1578505458581" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1578502585107">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1578502585107" />
   </component>
 </project>

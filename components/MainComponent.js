@@ -5,6 +5,36 @@ import {View, Platform} from 'react-native';
 import {DISHES} from '../shared/dishes';
 import {createDrawerNavigator, createStackNavigator} from "react-navigation";
 import Home from "./HomeComponent";
+import Contact from "./ContactComponent"
+import AboutUS from "./AboutComponent"
+
+const HomeNavigator = createStackNavigator({
+    Home: {screen: Home}
+}, {
+    navigationOptions: ({navigation}) => ({
+        headerStyle: {
+            backgroundColor: "#512DA8"
+        },
+        headerTitleStyle: {
+            color: "#fff"
+        },
+        headerTintColor: "#fff"
+    })
+});
+
+const AboutUsNavigator = createStackNavigator({
+    Home: {screen: AboutUS}
+}, {
+    navigationOptions: ({navigation}) => ({
+        headerStyle: {
+            backgroundColor: "#512DA8"
+        },
+        headerTitleStyle: {
+            color: "#fff"
+        },
+        headerTintColor: "#fff"
+    })
+});
 
 const MenuNavigator = createStackNavigator({
         Menu: {screen: Menu},
@@ -24,8 +54,8 @@ const MenuNavigator = createStackNavigator({
     }
 );
 
-const HomeNavigator = createStackNavigator({
-    Home: {screen: Home}
+const ContactUsNavigator = createStackNavigator({
+    Home: {screen: Contact}
 }, {
     navigationOptions: ({navigation}) => ({
         headerStyle: {
@@ -47,6 +77,14 @@ const MainNavigator = createDrawerNavigator({
                 drawerLabel: 'Home'
             }
         },
+    AboutUs:
+        {
+            screen: AboutUsNavigator,
+            navigationOptions: {
+                title: 'About Us',
+                drawerLabel: 'About Us'
+            }
+        },
     Menu:
         {
             screen: MenuNavigator,
@@ -54,7 +92,15 @@ const MainNavigator = createDrawerNavigator({
                 title: 'Menu',
                 drawerLabel: 'Menu'
             },
-        }
+        },
+    ContactUs:
+        {
+            screen: ContactUsNavigator,
+            navigationOptions: {
+                title: 'Contact Us',
+                drawerLabel: 'Contact Us'
+            }
+        },
 }, {
     drawerBackgroundColor: '#D1C4E9'
 });
