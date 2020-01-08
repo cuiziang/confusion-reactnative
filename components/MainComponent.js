@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Menu from './MenuComponent';
-import Dishdetail from './DishdetailComponent';
+import DishDetail from './DishdetailComponent';
 import {View, Platform} from 'react-native';
 import {DISHES} from '../shared/dishes';
 import {createDrawerNavigator, createStackNavigator} from "react-navigation";
@@ -8,7 +8,7 @@ import Home from "./HomeComponent";
 
 const MenuNavigator = createStackNavigator({
         Menu: {screen: Menu},
-        Dishdetail: {screen: Dishdetail}
+        DishDetail: {screen: DishDetail}
     },
     {
         initialRouteName: 'Menu',
