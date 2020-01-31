@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b6c9f8-7834-41d2-b8c6-bf91d067b01d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/LoadingComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux/favorites.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AboutComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/AboutComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/ActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/ActionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/ActionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/configureStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,7 @@
       <updated>1566951994236</updated>
       <workItem from="1566951996104" duration="1792000" />
       <workItem from="1567017258334" duration="4195000" />
-      <workItem from="1580449626877" duration="5736000" />
+      <workItem from="1580449626877" duration="6510000" />
     </task>
     <task id="LOCAL-00001" summary="Fix some typos">
       <created>1578502583342</created>
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580455318779</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Activity Indicator">
+      <created>1580456340949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580456340949</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,14 +157,15 @@
     <MESSAGE value="Icons and Buttons" />
     <MESSAGE value="Setting up Redux" />
     <MESSAGE value="Using Redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Redux" />
+    <MESSAGE value="Activity Indicator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activity Indicator" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="130" key="CommitChangelistDialog2" timestamp="1580455318637">
+    <state x="391" y="130" key="CommitChangelistDialog2" timestamp="1580456340807">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="391" y="130" key="CommitChangelistDialog2/0.0.1680.1050/-104.-1057.1920.1057@0.0.1680.1050" timestamp="1580451120657" />
-    <state x="391" y="130" key="CommitChangelistDialog2/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1580455318637" />
+    <state x="391" y="130" key="CommitChangelistDialog2/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1580456340807" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1578587087735">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
