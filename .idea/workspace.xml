@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6b6c9f8-7834-41d2-b8c6-bf91d067b01d" name="Default Changelist" comment="Fix a bug">
+    <list default="true" id="d6b6c9f8-7834-41d2-b8c6-bf91d067b01d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shared/baseUrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DishdetailComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <updated>1566951994236</updated>
       <workItem from="1566951996104" duration="1792000" />
       <workItem from="1567017258334" duration="4195000" />
-      <workItem from="1580449626877" duration="1315000" />
+      <workItem from="1580449626877" duration="1698000" />
     </task>
     <task id="LOCAL-00001" summary="Fix some typos">
       <created>1578502583342</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578506073300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Icons and Buttons">
+      <created>1580451120847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580451120847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,12 +131,14 @@
     <MESSAGE value="Fix some typos" />
     <MESSAGE value="Finish assignment 1" />
     <MESSAGE value="Fix a bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix a bug" />
+    <MESSAGE value="Icons and Buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Icons and Buttons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="130" key="CommitChangelistDialog2" timestamp="1580449905815">
+    <state x="391" y="130" key="CommitChangelistDialog2" timestamp="1580451120657">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="391" y="130" key="CommitChangelistDialog2/0.0.1680.1050/-104.-1057.1920.1057@0.0.1680.1050" timestamp="1580451120657" />
     <state x="391" y="130" key="CommitChangelistDialog2/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1580449905815" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1578587087735">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -150,9 +160,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="559" y="242" key="RollbackChangesDialog/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1578505458581" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1578505496865">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1580451128982">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-104.-1057.1920.1057@0.0.1680.1050" timestamp="1580451128982" />
     <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1578505496865" />
     <state x="494" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1580449627472">
       <screen x="0" y="0" width="1680" height="1050" />
