@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b6c9f8-7834-41d2-b8c6-bf91d067b01d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/ReservationComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ReservationComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ReservationComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
       <workItem from="1566951996104" duration="1792000" />
       <workItem from="1567017258334" duration="4195000" />
       <workItem from="1580449626877" duration="8152000" />
-      <workItem from="1580710417172" duration="228000" />
+      <workItem from="1580710417172" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="Fix some typos">
       <created>1578502583342</created>
@@ -138,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580456939272</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Forms">
+      <created>1580711181950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580711181950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,14 +170,16 @@
     <MESSAGE value="Using Redux" />
     <MESSAGE value="Activity Indicator" />
     <MESSAGE value="Redux Adding Favorites" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redux Adding Favorites" />
+    <MESSAGE value="Forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forms" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="130" key="CommitChangelistDialog2" timestamp="1580456939141">
+    <state x="0" y="23" width="1680" height="1027" key="CommitChangelistDialog2" timestamp="1580711181337">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="391" y="130" key="CommitChangelistDialog2/0.0.1680.1050/-104.-1057.1920.1057@0.0.1680.1050" timestamp="1580451120657" />
     <state x="391" y="130" key="CommitChangelistDialog2/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1580456939141" />
+    <state x="0" y="23" width="1680" height="1027" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580711181337" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1578587087735">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
