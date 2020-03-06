@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "expo": "^34.0.1",
+    "expo-mail-composer": "^8.0.0",
+    "expo-permissions": "latest",
     "expo-secure-store": "^8.0.0",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
@@ -23,8 +25,7 @@
     "redux": "4.0.0",
     "redux-logger": "3.0.6",
     "redux-persist": "^6.0.0",
-    "redux-thunk": "2.2.0",
-    "expo-permissions": "latest"
+    "redux-thunk": "2.2.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^6.0.0"
