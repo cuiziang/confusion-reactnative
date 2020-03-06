@@ -55,15 +55,21 @@ function RenderComments(props) {
 
 function RenderDish(props) {
 
+    handleViewRef = ref => this.view = ref;
+
     const dish = props.dish;
 
     const recognizeDrag = ({ moveX, moveY, dx, dy }) => {
         return dx < -200;
     }
 
+
     const panResponder = PanResponder.create({
         onStartShouldSetPanResponder: (e, gestureState) => {
             return true;
+        },
+        onPanResponderGrant: () => {
+            this.view.rubberBand(1000).then(endState => console.log(endState.finished ? 'finished' : 'cancelled'));
         },
         onPanResponderEnd: (e, gestureState) => {
             console.log("pan responder end", gestureState);
@@ -73,9 +79,13 @@ function RenderDish(props) {
                     'Are you sure you wish to add ' + dish.name + ' to favorite?',
                     [
                         {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
-                        {text: 'OK', onPress: () => {props.favorite ? console.log('Already favorite') : props.onPress()}},
+                        {
+                            text: 'OK', onPress: () => {
+                                props.favorite ? console.log('Already favorite') : props.onPress()
+                            }
+                        },
                     ],
-                    { cancelable: false }
+                    {cancelable: false}
                 );
 
             return true;
@@ -83,8 +93,9 @@ function RenderDish(props) {
     })
 
     if (dish != null) {
-        return(
+        return (
             <Animatable.View animation="fadeInDown" duration={2000} delay={1000}
+                             ref={this.handleViewRef}
                              {...panResponder.panHandlers}>
                 <Card
                     featuredTitle={dish.name}
