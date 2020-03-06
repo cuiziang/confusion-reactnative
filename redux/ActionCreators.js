@@ -1,5 +1,5 @@
 import * as ActionTypes from './ActionTypes';
-import { baseUrl } from '../shared/baseUrl';
+import {baseUrl} from '../shared/baseUrl';
 
 export const fetchComments = () => (dispatch) => {
     return fetch(baseUrl + 'comments')
@@ -7,14 +7,13 @@ export const fetchComments = () => (dispatch) => {
                 if (response.ok) {
                     return response;
                 } else {
-                    var error = new Error('Error ' + response.status + ': ' + response.statusText);
+                    const error = new Error('Error ' + response.status + ': ' + response.statusText)
                     error.response = response;
                     throw error;
                 }
             },
             error => {
-                var errmess = new Error(error.message);
-                throw errmess;
+                throw new Error(error.message);
             })
         .then(response => response.json())
         .then(comments => dispatch(addComments(comments)))
@@ -40,14 +39,13 @@ export const fetchDishes = () => (dispatch) => {
                 if (response.ok) {
                     return response;
                 } else {
-                    var error = new Error('Error ' + response.status + ': ' + response.statusText);
+                    const error = new Error('Error ' + response.status + ': ' + response.statusText)
                     error.response = response;
                     throw error;
                 }
             },
             error => {
-                var errmess = new Error(error.message);
-                throw errmess;
+                throw new Error(error.message);
             })
         .then(response => response.json())
         .then(dishes => dispatch(addDishes(dishes)))
@@ -83,8 +81,7 @@ export const fetchPromos = () => (dispatch) => {
                 }
             },
             error => {
-                var errmess = new Error(error.message);
-                throw errmess;
+                throw new Error(error.message);
             })
         .then(response => response.json())
         .then(promos => dispatch(addPromos(promos)))
@@ -114,14 +111,13 @@ export const fetchLeaders = () => (dispatch) => {
                 if (response.ok) {
                     return response;
                 } else {
-                    var error = new Error('Error ' + response.status + ': ' + response.statusText);
+                    const error = new Error('Error ' + response.status + ': ' + response.statusText)
                     error.response = response;
                     throw error;
                 }
             },
             error => {
-                var errmess = new Error(error.message);
-                throw errmess;
+                throw new Error(error.message);
             })
         .then(response => response.json())
         .then(leaders => dispatch(addLeaders(leaders)))
@@ -142,7 +138,7 @@ export const addLeaders = (leaders) => ({
     payload: leaders
 });
 
-export const postFavorite = (dishId)  => (dispatch) => {
+export const postFavorite = (dishId) => (dispatch) => {
 
     setTimeout(() => {
         dispatch(addFavorite(dishId));
@@ -153,4 +149,47 @@ export const postFavorite = (dishId)  => (dispatch) => {
 export const addFavorite = (dishId) => ({
     type: ActionTypes.ADD_FAVORITE,
     payload: dishId
+});
+
+export const postComment = (dishId, rating, author, comment) => (dispatch) => {
+
+    const newComment = {
+        dishId: dishId,
+        rating: rating,
+        author: author,
+        comment: comment
+    };
+    newComment.date = new Date().toISOString();
+
+    return fetch(baseUrl + 'comments', {
+        method: "POST",
+        body: JSON.stringify(newComment),
+        headers: {
+            "Content-Type": "application/json"
+        }
+    })
+        .then(response => {
+                if (response.ok) {
+                    return response;
+                } else {
+                    const error = new Error('Error ' + response.status + ': ' + response.statusText)
+                    error.response = response;
+                    throw error;
+                }
+            },
+            error => {
+                throw error;
+            })
+        .then(response => response.json())
+        .then(response => dispatch(addComment(response)))
+        .then(dispatch(fetchComments()))
+        .catch(error => {
+            console.log('post comments', error.message);
+        });
+};
+
+
+export const addComment = (dishId, rating, author, comment) => ({
+    type: ActionTypes.ADD_COMMENT,
+    payload: dishId, rating, author, comment
 });
