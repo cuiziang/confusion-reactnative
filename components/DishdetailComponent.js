@@ -59,8 +59,12 @@ function RenderDish(props) {
 
     const dish = props.dish;
 
-    const recognizeDrag = ({ moveX, moveY, dx, dy }) => {
+    const recognizeDrag = ({moveX, moveY, dx, dy}) => {
         return dx < -200;
+    }
+
+    const recognizeComment = ({moveX, moveY, dx, dy}) => {
+        return dx > 200;
     }
 
 
@@ -87,7 +91,9 @@ function RenderDish(props) {
                     ],
                     {cancelable: false}
                 );
-
+            if (recognizeComment(gestureState)) {
+                props.toggleModal();
+            }
             return true;
         }
     })
