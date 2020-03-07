@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d6b6c9f8-7834-41d2-b8c6-bf91d067b01d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DishdetailComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DishdetailComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LoginComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/LoginComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
       <workItem from="1567017258334" duration="4195000" />
       <workItem from="1580449626877" duration="8152000" />
       <workItem from="1580710417172" duration="670000" />
-      <workItem from="1583535429112" duration="1345000" />
+      <workItem from="1583535429112" duration="4239000" />
     </task>
     <task id="LOCAL-00001" summary="Fix some typos">
       <created>1578502583342</created>
@@ -220,9 +223,9 @@
     </state>
     <state x="494" y="359" key="com.intellij.ide.util.TipDialog/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1580449627472" />
     <state x="494" y="359" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580710440120" />
-    <state x="495" y="289" width="689" height="472" key="find.popup" timestamp="1580457110370">
+    <state x="495" y="289" width="689" height="486" key="find.popup" timestamp="1583539339576">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="495" y="289" width="689" height="472" key="find.popup/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1580457110370" />
+    <state x="495" y="289" width="689" height="486" key="find.popup/0.0.1680.1050/-104.-1080.1920.1080@0.0.1680.1050" timestamp="1583539339576" />
   </component>
 </project>

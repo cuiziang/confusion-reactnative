@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "expo": "^34.0.1",
+    "expo-image-manipulator": "^8.0.0",
+    "expo-image-picker": "^8.0.2",
     "expo-mail-composer": "^8.0.0",
     "expo-permissions": "latest",
     "expo-secure-store": "^8.0.0",
@@ -18,6 +20,7 @@
     "react-native-animatable": "^1.3.3",
     "react-native-datepicker": "^1.7.2",
     "react-native-elements": "^1.1.0",
+    "react-native-ratings": "latest",
     "react-native-swipeout": "^2.3.6",
     "react-native-web": "^0.11.4",
     "react-navigation": "2.0.1",
